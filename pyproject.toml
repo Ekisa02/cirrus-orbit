@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cirrus-orbit"
+version = "0.1.0"
+description = "Distributed inference reference implementation with FastAPI and PyTorch"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+fastapi = "^0.95.2"
+uvicorn = "^0.22.0"
+httpx = "^0.24.1"
+torch = "^2.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,1 @@
+Model artifacts for workers. Use scripts/create_sample_model.py to generate a sample artifact named "sample.pt".
